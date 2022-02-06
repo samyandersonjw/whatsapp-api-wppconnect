@@ -121,7 +121,7 @@ async function startWPP (){
         //Create session wss return "serverClose" case server for close
         console.log('Session name: ', session);
     },
-        headless: false, // Headless chrome
+        headless: true, // Headless chrome
         devtools: false, // Open devtools by default
         useChrome: false, // If false will use Chromium instance
         debug: false, // Opens a debug session
